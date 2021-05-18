@@ -1,9 +1,8 @@
-<h1>WEB, PWA - Приложение для просмотра времени молитвы для мусульман на VUE JS </h1>
+<h1>WEB, PWA - Приложение для просмотра времени молитвы для мусульман на VUE JS. Демо: <a href="https://molitva-time.com/">molitva-time.com</a></h1>
 <h2>Технологии разработки: Figma, HTML, SCSS, VUE JS, <a href="https://aladhan.com/prayer-times-api">Rest Api</a></h2>
 
-# molitva-time
+# <a href="https://molitva-time.com/">molitva-time.com</a>
 
-## Project setup
 ```
 npm install
 ```
