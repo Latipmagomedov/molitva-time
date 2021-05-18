@@ -203,14 +203,9 @@ export default {
     if (this.$route.query.city) {
       if (navigator.onLine) {
         let fet = fetch(
-          `https://aladhan.p.rapidapi.com/timingsByCity?city=${this.$route.query.city}&country=russia"`,
+          `https://api.aladhan.com/v1/timingsByCity?country=russia%22&city=${this.$route.query.city}`,
           {
             method: "GET",
-            headers: {
-              "x-rapidapi-key":
-                "6f3ea4287dmsh370cc825937d336p19d219jsnff2f34145ddd",
-              "x-rapidapi-host": "aladhan.p.rapidapi.com",
-            },
           }
         )
           .then((response) => response.json())
